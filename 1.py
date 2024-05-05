@@ -6,6 +6,8 @@ pygame.init()  #starts pygame, initiates subpart of pygame that you need to make
 
 screen=pygame.display.set_mode((800,400))  #creates the display 
 pygame.display.set_caption('Legacy') #title name of the game  
+
+sky_surface = pygame.image.load("graphics/sky.png").convert()
 #these above three lines of code (1,3,7) gets executed and the window does not gets closed so we have to do something to keep the game's window
 #this is why we will create a while loop 
 
