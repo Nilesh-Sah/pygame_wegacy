@@ -1,0 +1,28 @@
+These are the notes for pygame 
+
+So to understand the concept of game we have to understand the concept of Playing a movie. Let`s use the concept of movie as an analogy. So, movie
+is basically a number of images that are shown in a quick succession with the sound, If you slow down the movie you can see the image which is also
+called frame and basically in a movie there is 24 fps
+
+if we do it long enough, 
+for 90 min movie -> 5400*24 fps -> average movie is 129,600 pictures played very quicly with sound
+
+Video game works in the sameway 
+
+basically there is a lot of images moving continously but there are some differences 
+
+movies                              game 
+Images are fixed             images are dynamically generated while the game is running for eg health bar, change of movement 
+No way to input              it checks for the input 
+
+
+How videogame works,
+
+(1) checking player input (the event loop)
+(2) use that information to place element on the screen
+
+with that, 
+one image is formed and by the same above logic we will be producing so many images
+
+this applies to both 2d and 3d games 
+
